@@ -1,0 +1,22 @@
+> Customer Personality Analysis – Data Cleaning Summary
+
+This project involved cleaning and preparing the Customer Personality Analysis dataset. The following actions were taken:
+
+----- Selected Columns -----
+
+Key columns used:
+ID, Year_Birth, Education, Marital_Status, Income,
+Dt_Customer, Recency, MntWines, MntMeatProducts, NumWebPurchases
+
+----- Cleaning Performed -----
+
+1. Missing Values: Filled 24 missing Income entries with the median
+2. Duplicates: None found
+3. Invalid Values: Removed 3 rows where Year_Birth < 1940
+4. Standardization: 
+	Capitalized entries in Education and Marital_Status
+	Replaced "Alone" → "Single", "Absurd"/"YOLO" → "Other"
+5. Date Format: Converted Dt_Customer to dd-mm-yyyy
+6. Column Cleanup: Removed extra spaces from column names and values
+
+This project focuses on cleaning the Customer Personality Analysis dataset for further analysis. The steps included removing missing values, handling duplicates, and cleaning columns such as Education and Marital_Status. 
