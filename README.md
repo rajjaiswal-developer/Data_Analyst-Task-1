@@ -31,7 +31,8 @@ This project prepares the Customer Personality Analysis dataset for analysis by 
 ## Files
 - `marketing_campaign.csv` – Raw dataset  
 - `cleaned_marketing_campaign.csv` – Cleaned dataset  
-- `data_cleaning_customer_personality.py` – Python cleaning script  
+- `data_cleaning_customer_personality.py` – Python cleaning script
+- `Task 1 Summary-File` – Task Summary
 - `README.md` – Project documentation
 
 ## Tools Used
